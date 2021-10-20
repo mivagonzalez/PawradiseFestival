@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+
+#fondoActividades {
+	top: -1%;
+	left: -1%;
+	position: absolute;
+	height: 100%;
+	width: 102%;
+	background-image: url("../images/fondo2.png");
+	background-size: cover;
+/*	background-position: 0 10%;*/
+	filter: blur(5px);
+}
+
+
+#comidaContainer {
+	position: absolute;
+	width: 50%;
+	height: 90%;
+	top: 6%;
+	left: 5%;
+/*	background-color:red;*/
+}
+
+#comida {
+	position: absolute;
+}
+
+#photo {
+	position: absolute;
+
+}
+
+#gimnasia {
+	position: absolute;
+
+}
+.title{
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 29px;
+	font-weight: 700;
+	text-shadow: 0px 0px 4px #000000;
+    text-align: justify;
+}
+
+.description {
+	position: absolute;
+	font-family: 'Poppins', sans-serif;
+    color: white;
+	font-weight: 600;
+	text-shadow: 0px 0px 3px #000000;
+    text-align: justify;
+	font-size: 18px;
+}
+
+#comidaTitle{
+	position: absolute;
+	top: 400px;
+}
+
+#comidaDescription{
+	position: absolute;
+	top: 440px;
+}
+
+#gimnasiaContainer {
+	position: absolute;
+	width: 30%;
+	height: 46%;
+	top: 0%;
+	left: 60%;
+}
+
+#gimnasiaTitle{
+	position: absolute;
+	top: 255px;
+}
+
+#gimnasiaDescription{
+	position: absolute;
+	top: 292px;
+}
+
+#photoBoothContainer {
+	position: absolute;
+	width: 30%;
+	height: 46%;
+	top: 50%;
+	left: 60%;
+}
+
+#photoTitle{
+	position: absolute;
+	top: 255px;
+}
+
+#photoDescription{
+	position: absolute;
+	top: 292px;
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#causaSocial {
+	position: absolute;
+	left: -2%;
+	top:-7%;
+}
+
+#fondoCausa {
+	top: -1%;
+	left: -1%;
+	position: absolute;
+	height: 100%;
+	width: 102%;
+	background-image: url("../images/fondo1.png");
+	background-size: cover;
+	filter: blur(2px);
+}

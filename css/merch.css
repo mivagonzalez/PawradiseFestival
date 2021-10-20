@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+
+#fondoMerch {
+	top: -1%;
+	left: -1%;
+	position: absolute;
+	height: 100%;
+	width: 102%;
+	background-image: url("../images/fondo2.png");
+	background-size: cover;
+/*	background-position: 0 10%;*/
+	filter: blur(1px);
+}

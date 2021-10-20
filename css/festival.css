@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+
+#fondoFestival {
+	top: -1%;
+	left: -1%;
+	position: absolute;
+	height: 100%;
+	width: 102%;
+	background-image: url("../images/festival.jpg");
+	background-size: cover;
+	background-position: 0 10%;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    width: 80%;
+	top: 6%;
+    transform: translate(-50%,0);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: normal;
+    text-align: justify;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+#main {
+	font-weight: 700;
+	font-size: 38px;
+/*	top: 10%;*/
+}
+
+#subMain {
+	font-weight: 500;
+	font-size: 30px;
+}
+
+#secondary {
+	font-weight: 300;
+	font-size: 22px;
+/*	top: 48%;*/
+}
+
+#playlist {
+	position: absolute;
+	top: 87%;
+	left: 50%;
+	width: 50%;
+	height: 20%;
+	transform: translate(-50%,0);
+	text-align: center;
+}
+
+#spotify {
+	position: absolute;
+	left: 220px;
+	transform: translate(0,-50%);
+}
+
+#playlistText {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: normal;
+}
