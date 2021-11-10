@@ -2,8 +2,8 @@
 
 #causaSocial {
 	position: absolute;
-	left: -2%;
-	top:-7%;
+	left: 0%;
+	top:  -1%;
 }
 
 #fondoCausa {
@@ -12,7 +12,236 @@
 	position: absolute;
 	height: 100%;
 	width: 102%;
-	background-image: url("../images/fondo1.png");
+	background-image: url("../images/fondo-causa-social-3.jpg");
+	background-position: 0% 30%; 
 	background-size: cover;
-	filter: blur(2px);
+/*	filter: blur(2px);*/
+}
+
+.causaText {
+	font-family: 'Poppins', sans-serif;
+    color: #1d4278;
+	position: absolute;
+	font-weight: 600;
+    font-size: 16px;
+}
+#creacionContainer {
+	position: absolute;
+	width: 30%;
+	height: 30%;
+/*	background-color: red;*/
+/*	opacity: 0.2;*/
+	left: 2.3%;
+	color: #1d4278;
+}
+
+#creacion {
+	position: absolute;
+	color: #1d4278;
+	top: 14%;
+	font-weight: 700;
+    font-size: 24px;
+}
+
+#anioCreacion{
+	position: absolute;
+	font-size: 70px;
+	font-weight: 500;
+	top: 38%;
+	color: #1d4278;
+	text-shadow: inset 1px 1px 1px #ffffff
+}
+
+#trabajando{
+	color: #1d4278;
+	position: absolute;
+	font-size: 16px;
+	font-weight: 600;
+	top: 31%;
+	left: 1.5%;
+}
+
+#misionContainer{
+	position: absolute;
+	width: 20%;
+	height: 20%;
+/*	background-color: red;*/
+/*	opacity: 0.2;*/
+	left: 17.5%;
+	color: #1d4278;
+	top: 11%;
+	font-size: 14px;
+}
+
+#mision {
+	position: absolute;
+	color: #1d4278;
+	top: -34%;
+	font-weight: 700;
+    font-size: 24px;
+}
+
+#visionContainer{
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	left: 44%;
+	color: #1d4278;
+	top: 9%;
+	font-size: 14px;
+}
+#vision {
+	position: absolute;
+	color: #1d4278;
+	top: -24%;
+	left: -1%;
+	font-weight: 700;
+    font-size: 24px;
+}
+
+#redEnAccionContainer{
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	left: 29%;
+	color: #1d4278;
+	top: 34%;
+	font-size: 14px;
+}
+
+#redEnAccion {
+	position: absolute;
+	color: #1d4278;
+	top: -75%;
+	left: -4%;
+	font-weight: 700;
+    font-size: 24px;
+}
+
+#redEnAccionText {
+	position: absolute;
+	color: #1d4278;
+	font-weight: 700;
+    font-size: 18px;
+}
+
+#kg {
+	position: absolute;
+	font-size: 70px;
+	font-weight: 500;
+	top: 20%;
+	color: #1d4278;
+	text-shadow: inset 1px 1px 1px #ffffff
+}
+
+#transitoContainer{
+	position: absolute;
+	width: 20%;
+	height: 10%;
+	left: 63%;
+	color: #1d4278;
+	top: 33%;
+	font-size: 14px;
+}
+
+#transito {
+	position: absolute;
+	color: #1d4278;
+	top: -69%;
+	left: -1%;
+	font-weight: 700;
+    font-size: 24px;
+}
+
+#dolca {
+	position: absolute;
+	color: #7a9cd1;
+	font-weight: 700;
+    font-size: 18px;
+	left: 64%;
+	top: 50%;
+	width: 20%;
+	text-shadow: 1px 1px 1px #000000
+
+}
+
+#todoPosibleContainer{
+	position: absolute;
+	width: 75%;
+	height: 10%;
+	left: 20%;
+	color: #1d4278;
+	top: 60%;
+	font-size: 14px;
+}
+
+#todoPosible {
+	position: absolute;
+	color: #1d4278;
+	top: -57%;
+	left: 0%;
+	font-weight: 700;
+    font-size: 24px;
+}
+#contactoCausaContainer{
+	position: absolute;
+	width: 75%;
+	height: 10%;
+	left: 26%;
+	color: #1d4278;
+	top: 68.5%;
+	font-weight: 700;
+    font-size: 24px;
+}
+
+#paginaContacto {
+	position: absolute;
+	top: 74.5%;
+	left: 26%;
+	font-size: 12px;
+	text-decoration: none;
+}
+#facebookContacto {
+	position: absolute;
+	top: 80.5%;
+	left: 26%;
+	font-size: 12px;
+	text-decoration: none;
+}
+#twitterContacto {
+	position: absolute;
+	top: 86%;
+	left: 26%;
+	font-size: 12px;
+	text-decoration: none;
+}
+#instagramContacto {
+	position: absolute;
+	top: 92%;
+	left: 26%;
+	font-size: 12px;
+	text-decoration: none;
+}
+#youtubeContacto {
+	position: absolute;
+	top: 97.5%;
+	left: 26%;
+	font-size: 12px;
+	text-decoration: none;
+}
+#causaLogo{
+	position: absolute;
+	left: 83%;
+	top: 77%;
+}
+
+#conoceMas{
+	position: absolute;
+	width: 40%;
+	height: 10%;
+	left: 40%;
+	color: #1d4278;
+	top: 80%;
+	font-weight: 700;
+    font-size: 24px;
 }

@@ -9,7 +9,6 @@
 	width: 102%;
 	background-image: url("../images/fondo2.png");
 	background-size: cover;
-/*	background-position: 0 10%;*/
 	filter: blur(5px);
 }
 
@@ -20,7 +19,6 @@
 	height: 90%;
 	top: 6%;
 	left: 5%;
-/*	background-color:red;*/
 }
 
 #comida {

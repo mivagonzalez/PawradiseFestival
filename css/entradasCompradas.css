@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+
+#comprarEntradasBackground {
+	top: -1%;
+	left: -1%;
+	position: absolute;
+	height: 100%;
+	width: 102%;
+	background-image: url("../images/fotos-fondo.jpg");
+	background-size: cover;
+	background-position: 0 110%;
+	filter: blur(2px);
+	z-index: -2;
+}
+
+#pulsera1{
+	position: absolute;
+	left: -8%;
+	top: -3%;
+/*	transform: rotate(180deg);*/
+	z-index: -1;
+}
+
+#entradas{
+	position: absolute;
+	left: 64%;
+	top: -5%;
+	z-index: -1;
+}
+
+#buyMessage{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	top: 30%;
+	font-family: 'Poppins', sans-serif;
+	color: #17519C;
+	text-shadow: 1px 1px 2px #000000;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: justify;
+}
+

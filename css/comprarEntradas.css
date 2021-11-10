@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+
+#comprarEntradasBackground {
+	top: -1%;
+	left: -1%;
+	position: absolute;
+	height: 100%;
+	width: 102%;
+	background-image: url("../images/fotos-fondo.jpg");
+	background-size: cover;
+	background-position: 0 110%;
+	filter: blur(2px);
+	z-index: -2;
+}
+#back {
+	background-color: #44BDA3;
+	box-shadow: 0px 0px 2px 1px #000000;
+	border: none;
+}
+#submitButton{
+	background-color: #1e427b;
+}
+#continuarButton{
+	background-color: #1e427b;
+	box-shadow: 0px 0px 2px 1px #000000;
+	border: none;
+}
+#continuarButton2{
+	background-color: #1e427b;
+	box-shadow: 0px 0px 2px 1px #000000;
+	border: none;
+}
+.activeOption {
+	background-color: #1e427b;
+	color: #ffffff;
+}
+#activeOption {
+	background-color: #1e427b;
+	color: #ffffff;
+}
+#pulsera1{
+	position: absolute;
+	left: -8%;
+	top: -5%;
+/*	transform: rotate(180deg);*/
+	z-index: -1;
+}
+
+#t2_plus {
+	position: absolute;
+	top: 45%;
+	left: 90%;
+	transform: translate(0,-50%);
+	color: #1e427b;
+}
+
+#t2_minus {
+	position: absolute;
+	top: 45%;
+	left: 85%;
+	transform: translate(0,-50%);
+	color: #1e427b;
+}
+
+#cantidad{
+	position: absolute;
+	top: 46%;
+	transform: translate(0,-50%);
+}
+
+#entradas{
+	position: absolute;
+	left: 61%;
+	top: -5%;
+	z-index: -1;
+}
+.btn:focus {
+        outline: none;
+      }
+      .hidden {
+        display: none;
+
+      }
+      .listed {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .p-top {
+        padding-top: 7px;
+
+      }
+      .td-padding {
+        padding-top: 30px !important;
+		  
+      }
+      .container {
+		font-family: 'Poppins', sans-serif;
+    	color: #1e427b;
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        min-width: 480px;
+        max-width: 768px;
+		background-color: #F4C8CE;
+		box-shadow: 0px 0px 10px 1px #000000;
+      }
+      .container-fluid {
+        padding-bottom: 10px;
+        margin-top: 1px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .paddingLF {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .inactiveLink {
+        pointer-events: none;
+        cursor: default;
+      }
+      .buttons-wrapper {
+        display: inline-block;
+      }

@@ -23,7 +23,78 @@ $(document).ready(function() {
 		$('#dog2').css('opacity', '0');
 		$('#dog').css('opacity', '1');
 	});
-
+	
+	$('#amount1').on(click, function(){
+		$('#amount1').css('background-color', '#DC959D');
+		$('#amount1').css('border', '4px solid #FADFE4');
+		$('#amount1').css('box-shadow', 'inset 0 0 3px 0px #000000');
+		
+		$('#amount2').css('background-color', '#FADFE4');
+		$('#amount2').css('border', '4px solid #DC959D');
+		$('#amount2').css('box-shadow', 'none');
+		
+		$('#amount3').css('background-color', '#FADFE4');
+		$('#amount3').css('border', '4px solid #DC959D');
+		$('#amount3').css('box-shadow', 'none');
+		
+		$('#amount4').css('background-color', '#FADFE4');
+		$('#amount4').css('border', '4px solid #DC959D');
+		$('#amount4').css('box-shadow', 'none');
+	});
+	
+	$('#amount2').on(click, function(){
+		$('#amount2').css('background-color', '#DC959D');
+		$('#amount2').css('border', '4px solid #FADFE4');
+		$('#amount2').css('box-shadow', 'inset 0 0 3px 0px #000000');
+		
+		$('#amount1').css('background-color', '#FADFE4');
+		$('#amount1').css('border', '4px solid #DC959D');
+		$('#amount1').css('box-shadow', 'none');
+		
+		$('#amount3').css('background-color', '#FADFE4');
+		$('#amount3').css('border', '4px solid #DC959D');
+		$('#amount3').css('box-shadow', 'none');
+		
+		$('#amount4').css('background-color', '#FADFE4');
+		$('#amount4').css('border', '4px solid #DC959D');
+		$('#amount4').css('box-shadow', 'none');
+	});
+	
+	$('#amount3').on(click, function(){
+		$('#amount3').css('background-color', '#DC959D');
+		$('#amount3').css('border', '4px solid #FADFE4');
+		$('#amount3').css('box-shadow', 'inset 0 0 3px 0px #000000');
+		
+		$('#amount2').css('background-color', '#FADFE4');
+		$('#amount2').css('border', '4px solid #DC959D');
+		$('#amount2').css('box-shadow', 'none');
+		
+		$('#amount1').css('background-color', '#FADFE4');
+		$('#amount1').css('border', '4px solid #DC959D');
+		$('#amount1').css('box-shadow', 'none');
+		
+		$('#amount4').css('background-color', '#FADFE4');
+		$('#amount4').css('border', '4px solid #DC959D');
+		$('#amount4').css('box-shadow', 'none');
+	});
+	
+	$('#amount4').on(click, function(){
+		$('#amount4').css('background-color', '#DC959D');
+		$('#amount4').css('border', '4px solid #FADFE4');
+		$('#amount4').css('box-shadow', 'inset 0 0 3px 0px #000000');
+		
+		$('#amount2').css('background-color', '#FADFE4');
+		$('#amount2').css('border', '4px solid #DC959D');
+		$('#amount2').css('box-shadow', 'none');
+		
+		$('#amount3').css('background-color', '#FADFE4');
+		$('#amount3').css('border', '4px solid #DC959D');
+		$('#amount3').css('box-shadow', 'none');
+		
+		$('#amount1').css('background-color', '#FADFE4');
+		$('#amount1').css('border', '4px solid #DC959D');
+		$('#amount1').css('box-shadow', 'none');
+	});
 
 	function openMenu(){
 		$('div.circle').addClass('expand');		

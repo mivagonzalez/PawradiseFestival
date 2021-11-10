@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+
+#fondoMerch {
+	top: -1%;
+	left: -1%;
+	position: absolute;
+	height: 100%;
+	width: 102%;
+	background-image: url("../images/Fondo-donaciones.jpg");
+	background-size: cover;
+	background-position: 0 30%;
+	filter:blur(1px);
+}
+
+form {
+	position: absolute;
+	left: 20%;
+	top: 20%;
+	height: 60%;
+	width: 80%;
+/*	background-color: antiquewhite;*/
+}
+
+.form {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+/*  text-shadow: 1px 1px 0px #000000;*/
+}
+
+.form * {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.form__title {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  color: #17519C;
+}
+
+.form__item > * {
+  align-self: flex-start;
+}
+
+.form__label {
+  font-weight: 900;
+  padding: 0px 0;
+}
+
+.form__input {
+  -webkit-appearance: none;
+  width: 100%;
+  max-width: 425px;
+
+  /* Fix for Safari/iOS date fields */
+  min-height: calc(0.9em + (0.8em * 2) + 0.6em);
+
+  padding: 0.8em;
+  font-size: 0.9em;
+  font-family: 'Poppins', sans-serif;
+
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background: #FADFE4;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.form__input:focus {
+  background-color: #DC959D;
+}
+
+.form__input::placeholder {
+  color: #17519C;
+  opacity: 0.8
+}
+
+.form__input--error {
+  color: #d50000;
+  background: #FADFE4;
+  border-color: #d50000;
+}
+
+.form__input--error::placeholder {
+  color: #ffbfbf;
+}
+
+.form__error {
+  padding-top: 10px;
+  color: #d50000;
+  font-size: 0.9em;
+  visibility: hidden;
+}
+
+.form__input--error + .form__error {
+  visibility: visible;
+}
+
+.form__input--small {
+  max-width: 250px;
+}
+
+textarea.form__input {
+  resize: none;
+  min-height: 200px;
+}
+
+.form__btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 10px 16px;
+    margin: 10px 0;
+    color: #ffffff;
+    background: #17519C;
+    border: 3px solid #FADFE4;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.form__btn:active {
+  background: #DC959D;
+}
+
+#donationAmountContainer {
+	position: absolute;
+	height: 50%;
+	width: 40%;
+	left: 40%;
+	top: 44%;
+/*	background-color: red;*/
+}
+
+#donationAmountText {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	top: 5%;
+	font-family: 'Poppins', sans-serif;
+	color: #17519C;
+	font-size: 32px;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+}
+
+.donationAmount{
+	position: absolute;
+	background-color: #FADFE4;
+	border: 4px solid #DC959D;
+	width: 150px;
+	height: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+#amount1 {
+	position: absolute;
+	top: 20%;
+	left: 28%;
+}
+
+#amount2 {
+	position: absolute;
+	top: 20%;
+	right: 28%;
+}
+
+#amount3 {
+	position: absolute;
+	top: 44%;
+	left: 28%;
+}
+
+#amount4 {
+	position: absolute;
+	top: 44%;
+	right: 28%;
+}
+
+.amountText {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Poppins', sans-serif;
+	color: #17519C;
+	font-weight: 900;
+	font-size: 28px;
+}
+
+#title {
+	position: absolute;
+	left: 20%;
+	top: 0%;
+	font-family: 'Poppins', sans-serif;
+	color: #17519C;
+	font-weight: 800;
+	font-size: 38px;
+}
+
+#description {
+	position: absolute;
+	left: 20%;
+	top: 8%;
+	font-family: 'Poppins', sans-serif;
+	color: #17519C;
+	font-weight: 600;
+	font-size: 24px;
+	width: 60%;
+}
+
+#pago {
+	position: absolute;
+	left: 73%;
+	top: 43%;
+}
+
+#mp {
+	position: absolute;
+	left: 73%;
+	top: 67%;
+}
+

@@ -1,7 +1,12 @@
 @charset "utf-8";
 
+body {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
 
-#fondoMerch {
+#backgroundMerch {
 	top: -1%;
 	left: -1%;
 	position: absolute;
@@ -9,6 +14,168 @@
 	width: 102%;
 	background-image: url("../images/fondo2.png");
 	background-size: cover;
-/*	background-position: 0 10%;*/
 	filter: blur(1px);
+}
+
+#platoContainer{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 35%;
+    top: 10%;
+}
+
+#platoComida {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.imgPriceContainer {
+	position: absolute;
+	width: 90%;
+	height: 55%;
+	top: 15%;
+	left: 5%;
+	transition-property: all;
+	transition-duration: 200ms;
+}
+.imgPriceContainer:hover #platoComida{
+	opacity: 0;
+}
+
+.imgPriceContainer:hover #taza{
+	opacity: 0;
+}
+
+.imgPriceContainer:hover #remeraNegra{
+	opacity: 0;
+}
+.imgPriceContainer:hover .productPrice{
+	opacity: 1;
+}
+
+#remeraNegra {
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#taza {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition-property: all;
+	transition-duration: 200ms;
+}
+
+#taza:hover {
+	opacity: 0;
+}
+
+#remeraNegraContainer{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 3%;
+    top: 10%;
+}
+
+#tazaContainer{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 67%;
+    top: 10%;
+}
+
+.productNameContainer{
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 0px 0px 2px #000000;
+	font-size: 25px;
+	font-weight: 600;
+	color: #ffffff;
+	position: absolute;
+	width: 100%;
+	height: 5%;
+	left: 0;
+	bottom: 0;
+	top: 0%;
+	transition-property: all;
+	transition: .3s ease-in-out;
+}
+
+.productNameContainer:after{
+	content:"";
+	display:block;
+	box-sizing:border-box;
+	position:absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	top: 200%;
+	width: 40%;
+	border-top:4px solid #DC959D;
+	transition-property: all;
+	transition: .3s ease-in-out;
+}
+
+.productName{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	width: 70%;
+	text-align: center;
+	transform: translate(-50%,0);
+	font-size: 25px;
+	font-weight: 700;
+	transition-property: all;
+	transition: .8s ease-in-out;
+}
+
+.productPrice{
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 0px 0px 2px #000000;
+	font-size: 70px;
+	font-weight: 600;
+	color: #ffffff;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	opacity: 0;
+	transition-property: all;
+	transition-duration: 200ms;
+}
+
+.comprarButton {
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	background-color: #DC959D;
+	top: 77%;
+	left: 50%;
+	transform: translate(-50%,0);
+	border-radius: 100px;
+    box-shadow: 0px 0px 20px #191919;
+	transition-property: all;
+}
+
+.comprarText {
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.comprarButton:hover {
+	background-color: #44BDA3;
+	box-shadow: inset 0px 0px 20px 1px #ffffff;
 }
